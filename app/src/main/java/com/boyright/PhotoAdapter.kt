@@ -26,6 +26,7 @@ class PhotoAdapter(var context: MainActivity, private var photoList: List<Image>
         holder.itemView.setBackgroundResource(photoList[position].start)
         holder.itemView.setOnClickListener {
             Clicked = if(Clicked) {holder.itemView.setBackgroundResource(R.drawable.click_stat__1_)
+                photoList[position].selected=true
 
                 false
             } else { holder.itemView.setBackgroundResource(R.drawable.start)

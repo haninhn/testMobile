@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
 
         imageList = adapter?.get() as ArrayList<Image>
 
-        for( i  in 0 until  imageList.size-1){
+        for( i  in 0 until  imageList.size){
             if(imageList[i].selected && imageList[i].orientation == "right"){
                 imageList[i].start = R.drawable.correct_1
                 adapter?.notifyDataSetChanged()
