@@ -60,12 +60,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
             else if(imageList[i].selected && imageList[i].orientation != "right"){
                 imageList[i].start = R.drawable.wrong_1
             }
-            else if(!imageList[i].selected && imageList[i].orientation == "right"){
-                imageList[i].start = R.drawable.wrong_1
-                adapter?.notifyDataSetChanged()
 
 
-            }
+
+
 
 }
 
