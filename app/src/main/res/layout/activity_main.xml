@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_marginLeft="10dp"
+        android:id="@+id/imageView2"
         android:layout_width="626dp"
         android:layout_height="39dp"
         android:layout_marginStart="52dp"
@@ -23,17 +23,15 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/Images"
-
-        android:layout_width="718dp"
-        android:layout_height="188dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="104dp"
-        android:layout_marginEnd="4dp"
+        android:layout_width="706dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginBottom="16dp"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/btnTest"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <android.widget.Button
         android:id="@+id/btnTest"

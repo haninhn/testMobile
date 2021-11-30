@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/start"
     android:id="@+id/mm"
-    android:layout_width="171dp"
+    android:layout_width="160dp"
     android:layout_marginRight="20dp"
     android:layout_height="wrap_content">
 
